@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.line1 {
+  width: 100%;
+  height: 40px; 
+  background-color: rgba(14, 13, 13);
+  position: fixed;
+  display: flex;
+  /* justify-content: flex-start; */
+  justify-content: space-between;
+  
+}
+.line1>div {
+  margin-top: 10px;
+  padding-left: 20px;
+  color: rgb(184, 178, 178);
+  font-size: 12px;
+  margin-right: 60px;
+}
+
+.line1>div>img{
+  width: 15px;
+  height: 18px;
+  margin-left: 120px;
+
+}
+
+.line2 {
+  width: 100%;
+  height: 900px;
+  background-color: rgba(61, 56, 56, 0.007);
+  color: whitesmoke;
+  display: flex;
+  justify-content: center;
+  border-top: 200px;
+  background-color: black;
+  /* background-image: url(https://i.insider.com/5d9ba18a880f263d7b47bfb5?width=1100&format=jpeg&auto=webp); */
+}
+.line2>p {
+  width: 100%;
+  height: 1000px;
+  /* background-color: rgba(14, 13, 13); */
+  /* color: black; */
+  display: flex;
+  justify-content: center;
+}
+.line1>div>a{
+  color: rgb(160, 156, 156);
+  font: normal;
+}
+/* .iPhone11pro {
+  background-image: initial;
+  display: flex;
+  justify-content: space-between;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+  margin: 0;
+  padding: 0;
+}
+
+.orbit {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+
+.planet {
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 91px;
+  left: 91px;
+  border: 1px solid rgb(190, 80, 15);
+  background-color: rgb(190, 80, 15);
+  border-radius: 50%;
+  animation-name: circle;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes circle {
+  from { transform: rotate(0deg) translateX(101px); }
+  to { transform: rotate(360deg) translateX(101px);}
+}
+
+
+.planet1 {
+  width: 30px;
+  height: 30px;
+  position: relative;
+  top: 91px;
+  left: 91px;
+  border: 1px solid black;
+  border-radius: 50%;
+  animation-name: circle;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes circle {
+  from { transform: rotate(0deg) translateX(101px); }
+  to { transform: rotate(360deg) translateX(101px);}
+} */
+/* @keyframes circle {
+  10% { color: blue }
+  30% { color: brown}
+  60% { color: rgb(19, 245, 87)}
+  70% { color: rgb(24, 15, 15)}
+  100% { color: rgb(43, 10, 161)}
+} */
